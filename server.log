@@ -1,0 +1,513 @@
+Server is running on http://localhost:3000
+Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='Conversations';
+Executing (default): PRAGMA INDEX_LIST(`Conversations`)
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user560';
+{
+  id: 'chatcmpl-9iM29Ye5I4THcNhwmQdgf76Hq2xZl',
+  object: 'chat.completion',
+  created: 1720358157,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user81';
+{
+  id: 'chatcmpl-9iM2KsSpAKXd6N2cjSlq0ibufcMey',
+  object: 'chat.completion',
+  created: 1720358168,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 13, total_tokens: 33 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user151';
+{
+  id: 'chatcmpl-9iM2QhDxleutqwB6pK823V2sidjrv',
+  object: 'chat.completion',
+  created: 1720358174,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user803';
+{
+  id: 'chatcmpl-9iM3zteycgGtNykiQlafVmty6isv8',
+  object: 'chat.completion',
+  created: 1720358271,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user60';
+{
+  id: 'chatcmpl-9iM4jPAle9U7XX1xg9xmU2G87x0I1',
+  object: 'chat.completion',
+  created: 1720358317,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 21, completion_tokens: 9, total_tokens: 30 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user292';
+{
+  id: 'chatcmpl-9iM4nYS825R5l3jmfUjGA2P8IhqUC',
+  object: 'chat.completion',
+  created: 1720358321,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user68';
+{
+  id: 'chatcmpl-9iM6uiYePHyI9zrcsghTEyEaQZHNy',
+  object: 'chat.completion',
+  created: 1720358452,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user563';
+{
+  id: 'chatcmpl-9iM74eFlu3zl95cQBtClBQTDZd2MB',
+  object: 'chat.completion',
+  created: 1720358462,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user302';
+{
+  id: 'chatcmpl-9iM7YF9MECPfa7XyFyF7G9nFvRLsl',
+  object: 'chat.completion',
+  created: 1720358492,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user682';
+{
+  id: 'chatcmpl-9iM9K3Ywp7hJoS0TUoFzy2McsqQlQ',
+  object: 'chat.completion',
+  created: 1720358602,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user708';
+{
+  id: 'chatcmpl-9iMAGii45grUbHTpii0WOsMHSnwoa',
+  object: 'chat.completion',
+  created: 1720358660,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user525';
+{
+  id: 'chatcmpl-9iMALMJ7lxRUOP3N0nuusKqTmYPCq',
+  object: 'chat.completion',
+  created: 1720358665,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user973';
+{
+  id: 'chatcmpl-9iMAPM5BUxHlx682jYVbYrAI2opdE',
+  object: 'chat.completion',
+  created: 1720358669,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user776';
+{
+  id: 'chatcmpl-9iMATtASWp9K9ahSBQ47ZPxzabuAr',
+  object: 'chat.completion',
+  created: 1720358673,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user643';
+{
+  id: 'chatcmpl-9iMAZ8sA67kEwIZ74DWNgsgvH3xHK',
+  object: 'chat.completion',
+  created: 1720358679,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user737';
+{
+  id: 'chatcmpl-9iMBolEVJJJrlhztNicqAO9sGISTw',
+  object: 'chat.completion',
+  created: 1720358756,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user120';
+{
+  id: 'chatcmpl-9iMCKbTBFRr1BKgZtQrX4Md3D3FD0',
+  object: 'chat.completion',
+  created: 1720358788,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user279';
+{
+  id: 'chatcmpl-9iMDB0EgheelLiOMXOpWVJCyObZf2',
+  object: 'chat.completion',
+  created: 1720358841,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user705';
+{
+  id: 'chatcmpl-9iMDYMxV37Xv7PZ6AMerYcAo7bivC',
+  object: 'chat.completion',
+  created: 1720358864,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 25, completion_tokens: 21, total_tokens: 46 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user720';
+{
+  id: 'chatcmpl-9iMFkle43NbMZLUHHUBjvS1lfVAjp',
+  object: 'chat.completion',
+  created: 1720359000,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user870';
+{
+  id: 'chatcmpl-9iMGJWxwCNAtv59xRGFRC87M8jk1y',
+  object: 'chat.completion',
+  created: 1720359035,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user121';
+{
+  id: 'chatcmpl-9iMGQs7Ci9O008kD83psjx8TaV8XF',
+  object: 'chat.completion',
+  created: 1720359042,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 13, total_tokens: 33 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user23';
+{
+  id: 'chatcmpl-9iMGWQOeB4bCznj1QUiW1NixvwNuj',
+  object: 'chat.completion',
+  created: 1720359048,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 21, completion_tokens: 9, total_tokens: 30 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user653';
+{
+  id: 'chatcmpl-9iMGc7T3SOasHs097JgNaJqnIZkiw',
+  object: 'chat.completion',
+  created: 1720359054,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 21, completion_tokens: 13, total_tokens: 34 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user24';
+{
+  id: 'chatcmpl-9iMHU1AAPKPHtgID007pRay2AGD8y',
+  object: 'chat.completion',
+  created: 1720359108,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user723';
+{
+  id: 'chatcmpl-9iMHkD3uCWUQUcVQSdq1tT98ty4Yx',
+  object: 'chat.completion',
+  created: 1720359124,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user80';
+{
+  id: 'chatcmpl-9iMJLSOU4jNtucogoQTazr3wMgU1u',
+  object: 'chat.completion',
+  created: 1720359223,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user837';
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user322';
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user72';
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
+Executing (default): SELECT `id`, `userId`, `message`, `response`, `createdAt`, `updatedAt` FROM `Conversations` AS `Conversation` WHERE `Conversation`.`userId` = 'user497';
+{
+  id: 'chatcmpl-9iMKgC8EBgTgE1yYc5AvQhwfH42Pw',
+  object: 'chat.completion',
+  created: 1720359306,
+  model: 'gpt-3.5-turbo-0125',
+  choices: [
+    {
+      index: 0,
+      message: [Object],
+      logprobs: null,
+      finish_reason: 'stop'
+    }
+  ],
+  usage: { prompt_tokens: 20, completion_tokens: 9, total_tokens: 29 },
+  system_fingerprint: null
+}
+Executing (default): INSERT INTO `Conversations` (`id`,`userId`,`message`,`response`,`createdAt`,`updatedAt`) VALUES (NULL,$1,$2,$3,$4,$5);
